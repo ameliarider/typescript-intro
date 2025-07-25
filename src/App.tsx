@@ -1,9 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { ObjectTypes } from './examples/ObjectTypes'
+import { InferenceExamples } from './examples/InferenceExamples'
 import { BasicTypes } from './examples/BasicTypes'
+import { FunctionTypes } from './examples/FunctionTypes';
 
 function App() {
 
@@ -11,10 +10,12 @@ function App() {
     <>
       <div>
         <ObjectTypes />
+        <InferenceExamples />
         <BasicTypes />
+        <FunctionTypes />
       </div>
     </>
   )
 }
 
-export default App
+export default App;
